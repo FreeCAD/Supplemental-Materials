@@ -1,0 +1,12 @@
+
+[project]
+# No need to update these.
+version = '0.0.0'
+name = 'Addon'
+
+requires-python = '>=3.11'
+
+dependencies = [
+    'freecad-stubs>=1.0.21' ,
+    'pyside6>=6.9.2'
+]
