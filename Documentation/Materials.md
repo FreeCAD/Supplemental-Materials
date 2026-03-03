@@ -33,9 +33,11 @@ Visual characteristics of models.
 
 Physical properties of models.
 
+<br/>
 
-[Materials-Appearance]: ../freecad/SupplementalMaterials/Resources/Materials/Appearance/
-[Materials-Physical]: ../freecad/SupplementalMaterials/Resources/Materials/Physical/
 
-[Models-Appearance]: ../freecad/SupplementalMaterials/Resources/Models/Appearance/
-[Models-Physical]: ../freecad/SupplementalMaterials/Resources/Models/Physical/
+[Materials-Appearance]: ../freecad/Supplemental_Materials/Resources/Materials/Appearance/
+[Materials-Physical]: ../freecad/Supplemental_Materials/Resources/Materials/Physical/
+
+[Models-Appearance]: ../freecad/Supplemental_Materials/Resources/Models/Appearance/
+[Models-Physical]: ../freecad/Supplemental_Materials/Resources/Models/Physical/

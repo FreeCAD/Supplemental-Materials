@@ -24,7 +24,7 @@
     <!--[ Info ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
     <description>A materials database that supplements the core materials provided by the FreeCAD application.</description>
-    <name>SupplementalMaterials</name>
+    <name>Supplemental Materials</name>
 
     <!--[ Tags ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
@@ -55,26 +55,26 @@
 
     <!--[ Icon ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
-    <icon>freecad/SupplementalMaterials/Resources/Icons/Addon.svg</icon>
+    <icon>freecad/Supplemental_Materials/Resources/Icons/Addon.svg</icon>
 
     <!--[ Urls ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
     <url
         type = 'documentation'
-    >https://github.com/FreeCAD/SupplementalMaterials/tree/Latest/Documentation</url>
+    >https://github.com/FreeCAD/Supplemental-Materials/tree/Latest/Documentation</url>
 
     <url
         branch = 'Latest'
         type = 'repository'
-    >https://github.com/FreeCAD/SupplementalMaterials</url>
+    >https://github.com/FreeCAD/Supplemental-Materials</url>
 
     <url
         type = 'bugtracker'
-    >https://github.com/FreeCAD/SupplementalMaterials/issues</url>
+    >https://github.com/FreeCAD/Supplemental-Materials/issues</url>
 
     <url
         type = 'readme'
-    >https://github.com/FreeCAD/SupplementalMaterials/blob/Latest/Resources/Documents/Overview.md</url>
+    >https://github.com/FreeCAD/Supplemental-Materials/blob/Latest/Resources/Documents/Overview.md</url>
 
     <!--[ Content ]――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 

@@ -12,4 +12,4 @@
 
 » [Adding materials][Usage]  
 
-[Usage]: https://github.com/FreeCAD/SupplementalMaterials/wiki/Usage
+[Usage]: https://github.com/FreeCAD/Supplemental-Materials/wiki/Usage

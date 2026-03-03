@@ -25,7 +25,7 @@ from .Resources import materials , models , asIcon
 from FreeCAD import ParamGet
 
 
-Parameter = 'User parameter:BaseApp/Preferences/Mod/Material/Resources/Modules/SupplementalMaterials'
+Parameter = 'User parameter:BaseApp/Preferences/Mod/Material/Resources/Modules/Supplemental-Materials'
 
 
 config = ParamGet(Parameter)

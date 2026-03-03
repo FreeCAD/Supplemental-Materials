@@ -30,5 +30,5 @@ materials as they become available.
 » [Adding materials][Usage]  
 » [Details about the material licenses][Licensing]  
 
-[Licensing]: https://github.com/FreeCAD/SupplementalMaterials/wiki/Licensing
-[Usage]: https://github.com/FreeCAD/SupplementalMaterials/wiki/Usage
+[Licensing]: https://github.com/FreeCAD/Supplemental-Materials/wiki/Licensing
+[Usage]: https://github.com/FreeCAD/Supplemental-Materials/wiki/Usage
