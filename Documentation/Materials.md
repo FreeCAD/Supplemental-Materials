@@ -1,7 +1,7 @@
 <!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->
 <!-- SPDX-FileNotice: Part of the Supplemental Materials addons. -->
 
-# Materials
+# Material Organization
 
 Maintaining appearance models separate from physical  
 models allows objects to look like the material (such as  

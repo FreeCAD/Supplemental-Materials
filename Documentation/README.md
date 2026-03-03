@@ -10,6 +10,10 @@
 
 ## Usage
 
-» [Adding materials][Usage]  
+» [Material folder organization][Organization]  
+» [Adding materials][Adding]  
+» [Details about the material licenses][Licensing]  
 
-[Usage]: https://github.com/FreeCAD/Supplemental-Materials/wiki/Usage
+[Licensing]: https://github.com/FreeCAD/Supplemental-Materials/blob/Latest/Documentation/Licensing.md
+[Adding]: https://github.com/FreeCAD/Supplemental-Materials/blob/Latest/Documentation/AddingMaterials.md
+[Organization]: https://github.com/FreeCAD/Supplemental-Materials/blob/Latest/Documentation/Materials.md

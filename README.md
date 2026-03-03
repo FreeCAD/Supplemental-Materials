@@ -27,8 +27,8 @@ By using this repository you'll get the latest
 materials as they become available.
 
 ## Information
-» [Adding materials][Usage]  
+» [Adding materials][Adding]  
 » [Details about the material licenses][Licensing]  
 
-[Licensing]: https://github.com/FreeCAD/Supplemental-Materials/wiki/Licensing
-[Usage]: https://github.com/FreeCAD/Supplemental-Materials/wiki/Usage
+[Licensing]: https://github.com/FreeCAD/Supplemental-Materials/blob/Latest/Documentation/Licensing.md
+[Adding]: https://github.com/FreeCAD/Supplemental-Materials/blob/Latest/Documentation/AddingMaterials.md
