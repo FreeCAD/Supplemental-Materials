@@ -1,3 +1,6 @@
+<!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->
+<!-- SPDX-FileNotice: Part of the Supplemental Materials addons. -->
+
 # Material physical models folder
 
 Material physical models describe the physical properties of materials.

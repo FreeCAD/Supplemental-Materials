@@ -1,3 +1,6 @@
+<!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->
+<!-- SPDX-FileNotice: Part of the Supplemental Materials addons. -->
+
 # Physical materials folder
 
 Materials describing physical properties are placed in this folder tree.

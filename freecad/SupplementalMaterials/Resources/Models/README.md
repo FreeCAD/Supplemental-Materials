@@ -1,3 +1,6 @@
+<!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->
+<!-- SPDX-FileNotice: Part of the Supplemental Materials addons. -->
+
 # Material models folder
 
 Materials models describe the properties of materials.

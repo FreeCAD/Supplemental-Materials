@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: LGPL-3.0-or-later
-# SPDX-FileNotice: Part of the Minimal addon.
+# SPDX-FileNotice: Part of the Supplemental Materials addons.
 
 import freecad.SupplementalMaterials as module
 from importlib.resources import as_file , files
