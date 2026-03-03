@@ -23,13 +23,15 @@
 
     <!--[ Info ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
-    <description>A materials database that supplements the core materials provided by the FreeCAD application.</description>
+    <description>Materials database that supplements the core materials.</description>
     <name>Supplemental Materials</name>
 
     <!--[ Tags ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
+    <tag>Supplemental</tag>
     <tag>Collection</tag>
-    <tag>Material</tag>
+    <tag>Materials</tag>
+    <tag>Models</tag>
 
     <!--[ Maintainers ]――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
