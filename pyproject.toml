@@ -2,9 +2,8 @@
 # SPDX-FileNotice: Part of the Supplemental Materials addons.
 
 [project]
-# No need to update these.
-version = '0.0.0'
-name = 'SupplementalMaterials'
+version = '0.0.0' # No need to update
+name = 'Addon'    # these two properties.
 
 requires-python = '>=3.11'
 
