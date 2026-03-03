@@ -31,4 +31,4 @@ Parameter = 'User parameter:BaseApp/Preferences/Mod/Material/Resources/Modules/S
 config = ParamGet(Parameter)
 config.SetString('ModuleModelDir',str(models))
 config.SetString('ModuleDir',str(materials))
-config.SetString('ModuleIcon',asIcon('SupplementalMaterials'))
+config.SetString('ModuleIcon',asIcon('Addon'))
