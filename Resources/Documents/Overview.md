@@ -4,7 +4,7 @@
 A materials database that supplements the core  
 materials provided by the FreeCAD application.
 
-<img width = '300' src = '../Media/cubes.png' />
+<img width = '300' src = '../Media/Banner-600.png' />
 
 
 ## What

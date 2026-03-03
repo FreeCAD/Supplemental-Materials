@@ -8,7 +8,7 @@
 A materials database that supplements the core 
 materials provided by the FreeCAD application.
 
-<img width = '360' src = './Resources/Media/cubes.png' />
+<img width = '360' src = './Resources/Media/Banner.webp' />
 
 </div>
 
