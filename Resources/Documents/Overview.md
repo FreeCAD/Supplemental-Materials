@@ -1,22 +1,23 @@
 
-# Minimal
+# Supplemental Materials Repository
 
-Addon example that's easy to make your own.
+A materials database that supplements the core  
+materials provided by the FreeCAD application.
 
-<img width = '300' src = '../Media/Header.webp' />
+<img width = '300' src = '../Media/cubes.png' />
 
 
 ## What
 
-This is the file configured in the `package.xml`  
-manifest to be shown in the addon manager  
-instead of the repository README.
+The FreeCAD material system is designed to  
+handle a wide range of materials. While  
+the FreeCAD application comes with a core set  
+of predefined materials, these were never  
+intended to limit the materials you could  
+describe or use in you FreeCAD designs. New  
+materials will be added here instead of as  
+part of the FreeCAD application.
 
-## Why
-
-Most of the information of the repository README  
-isn't relevant to the users of your addon, they are  
-for the most part 2 separate audiences.
-
-Both should be served adequately and not  
-overloaded with information they don't need.
+By using this repository you'll get the latest  
+materials as they become available instead of  
+having to wait for the next FreeCAD release.

@@ -2,7 +2,7 @@
 [project]
 # No need to update these.
 version = '0.0.0'
-name = 'Addon'
+name = 'SupplementalMaterials'
 
 requires-python = '>=3.11'
 

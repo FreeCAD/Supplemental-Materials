@@ -1,11 +1,13 @@
 # SPDX-License-Identifier: LGPL-3.0-or-later
 # SPDX-FileNotice: Part of the Minimal addon.
 
-import freecad.Minimal as module
+import freecad.SupplementalMaterials as module
 from importlib.resources import as_file , files
 
 resources = files(module) / 'Resources'
 
+materials = resources / 'Materials'
+models = resources / 'Models'
 icons = resources / 'Icons'
 
 

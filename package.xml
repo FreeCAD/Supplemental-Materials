@@ -13,46 +13,35 @@
     <freecadmin>1.0.2</freecadmin>
     <pythonmin>3.13</pythonmin>
     <version>0.1.0</version>
-    <date>2025-12-24</date>
+    <date>2026-03-01</date>
 
     <!--[ Dependencies ]―――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
     <depend
-        version_gte = '2.4.0'
-        type = 'python'
-    >numpy</depend>
-
-    <depend
-        version_gte = '0.6.70'
-        type = 'addon'
-    >Curves</depend>
-
-    <depend
         type = 'internal'
-    >draft</depend>
+    >material</depend>
 
     <!--[ Info ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
-    <description>Addon example that's easy to make your own.</description>
-    <name>Minimal</name>
+    <description>A materials database that supplements the core materials provided by the FreeCAD application.</description>
+    <name>SupplementalMaterials</name>
 
     <!--[ Tags ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
-    <tag>Template</tag>
-    <tag>Minimal</tag>
-    <tag>Example</tag>
+    <tag>Collection</tag>
+    <tag>Material</tag>
 
     <!--[ Maintainers ]――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
     <maintainer
-        email = 'PhoneDroid.FGL@proton.me'
-    >PhoneDroid</maintainer>
+        email = 'dcarter@davesrocketshop.com'
+    >DavesRocketShop</maintainer>
 
     <!--[ Authors ]――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
     <author
-        email = 'PhoneDroid.FGL@proton.me'
-    >PhoneDroid</author>
+        email = 'dcarter@davesrocketshop.com'
+    >DavesRocketShop</author>
 
     <!--[ Licenses ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
@@ -64,28 +53,32 @@
         file = 'LICENSE-ICON'
     >CC-BY-SA-4.0</license>
 
+    <license
+        file = 'LICENSE-MATERIAL'
+    >CC-BY-SA-4.0</license>
+
     <!--[ Icon ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
-    <icon>freecad/Minimal/Resources/Icons/Logo.svg</icon>
+    <icon>freecad/SupplementalMaterials/Resources/Icons/SupplementalMaterials.svg</icon>
 
     <!--[ Urls ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
     <url
         type = 'documentation'
-    >https://github.com/FreeCAD/Addon-Template/tree/Latest/Documentation</url>
+    >https://github.com/FreeCAD/SupplementalMaterials/tree/Latest/Documentation</url>
 
     <url
         branch = 'Latest'
         type = 'repository'
-    >https://github.com/FreeCAD/Addon-Template</url>
+    >https://github.com/FreeCAD/SupplementalMaterials</url>
 
     <url
         type = 'bugtracker'
-    >https://github.com/FreeCAD/Addon-Template/issues</url>
+    >https://github.com/FreeCAD/SupplementalMaterials/issues</url>
 
     <url
         type = 'readme'
-    >https://github.com/FreeCAD/Addon-Template/blob/Latest/Resources/Documents/Overview.md</url>
+    >https://github.com/FreeCAD/SupplementalMaterials/blob/Latest/Resources/Documents/Overview.md</url>
 
     <!--[ Content ]――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 

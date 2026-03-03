@@ -1,28 +1,32 @@
 
 <div align = 'center' >
 
-# Minimal
+# Supplemental Materials
 
-Addon example that's easy to make your own.
+A materials database that supplements the core 
+materials provided by the FreeCAD application.
 
-<img width = '360' src = './Resources/Media/Header.webp' />
+<img width = '360' src = './Resources/Media/cubes.png' />
 
 </div>
 
 <br/>
-<br/>
 
->   [!IMPORTANT]  
->   All files in this repository are examples for this fictional addon.  
->   → The `CONTRIBUTING.md` file is for the addon, not this template!
+The FreeCAD material system is designed to 
+handle a wide range of materials. While 
+the FreeCAD application comes with a core set 
+of predefined materials, these were never 
+intended to limit the materials you could 
+describe or use in you FreeCAD designs. New 
+materials will be added here instead of as 
+part of the FreeCAD application.
 
-<br/>
+By using this repository you'll get the latest 
+materials as they become available.
 
 ## Information
-» [How to use this addon template][Usage]  
-» [Details about the addon license][Licensing]  
-» [How this template is structured][Structure]
+» [Adding materials][Usage]  
+» [Details about the material licenses][Licensing]  
 
-[Structure]: https://github.com/FreeCAD/Addon-Template/wiki/Structure
-[Licensing]: https://github.com/FreeCAD/Addon-Template/wiki/Licensing
-[Usage]: https://github.com/FreeCAD/Addon-Template/wiki/Usage
+[Licensing]: https://github.com/FreeCAD/SupplementalMaterials/wiki/Licensing
+[Usage]: https://github.com/FreeCAD/SupplementalMaterials/wiki/Usage
