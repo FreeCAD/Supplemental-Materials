@@ -23,13 +23,15 @@
 
     <!--[ Info ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
-    <description>A materials database that supplements the core materials provided by the FreeCAD application.</description>
-    <name>SupplementalMaterials</name>
+    <description>Materials database that supplements the core materials.</description>
+    <name>Supplemental Materials</name>
 
     <!--[ Tags ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
+    <tag>Supplemental</tag>
     <tag>Collection</tag>
-    <tag>Material</tag>
+    <tag>Materials</tag>
+    <tag>Models</tag>
 
     <!--[ Maintainers ]――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
@@ -46,39 +48,35 @@
     <!--[ Licenses ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
     <license
-        file = 'LICENSE-CODE'
+        file = 'LICENSE-Code'
     >LGPL-3.0-or-later</license>
 
     <license
-        file = 'LICENSE-ICON'
-    >CC-BY-SA-4.0</license>
-
-    <license
-        file = 'LICENSE-MATERIAL'
+        file = 'LICENSE-Assets'
     >CC-BY-SA-4.0</license>
 
     <!--[ Icon ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
-    <icon>freecad/SupplementalMaterials/Resources/Icons/SupplementalMaterials.svg</icon>
+    <icon>freecad/Supplemental_Materials/Resources/Icons/Addon.svg</icon>
 
     <!--[ Urls ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 
     <url
         type = 'documentation'
-    >https://github.com/FreeCAD/SupplementalMaterials/tree/Latest/Documentation</url>
+    >https://github.com/FreeCAD/Supplemental-Materials/tree/Latest/Documentation</url>
 
     <url
         branch = 'Latest'
         type = 'repository'
-    >https://github.com/FreeCAD/SupplementalMaterials</url>
+    >https://github.com/FreeCAD/Supplemental-Materials</url>
 
     <url
         type = 'bugtracker'
-    >https://github.com/FreeCAD/SupplementalMaterials/issues</url>
+    >https://github.com/FreeCAD/Supplemental-Materials/issues</url>
 
     <url
         type = 'readme'
-    >https://github.com/FreeCAD/SupplementalMaterials/blob/Latest/Resources/Documents/Overview.md</url>
+    >https://github.com/FreeCAD/Supplemental-Materials/blob/Latest/Resources/Documents/Overview.md</url>
 
     <!--[ Content ]――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
 

@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->
+<!-- SPDX-FileNotice: Part of the Supplemental Materials addons. -->
 
 <div align = 'center' >
 
@@ -6,7 +8,7 @@
 A materials database that supplements the core 
 materials provided by the FreeCAD application.
 
-<img width = '360' src = './Resources/Media/cubes.png' />
+<img width = '360' src = './Resources/Media/Banner.webp' />
 
 </div>
 
@@ -28,5 +30,5 @@ materials as they become available.
 » [Adding materials][Usage]  
 » [Details about the material licenses][Licensing]  
 
-[Licensing]: https://github.com/FreeCAD/SupplementalMaterials/wiki/Licensing
-[Usage]: https://github.com/FreeCAD/SupplementalMaterials/wiki/Usage
+[Licensing]: https://github.com/FreeCAD/Supplemental-Materials/wiki/Licensing
+[Usage]: https://github.com/FreeCAD/Supplemental-Materials/wiki/Usage

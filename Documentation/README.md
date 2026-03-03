@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->
+<!-- SPDX-FileNotice: Part of the Supplemental Materials addons. -->
 
 # Documentation
 
@@ -10,4 +12,4 @@
 
 » [Adding materials][Usage]  
 
-[Usage]: https://github.com/FreeCAD/SupplementalMaterials/wiki/Usage
+[Usage]: https://github.com/FreeCAD/Supplemental-Materials/wiki/Usage

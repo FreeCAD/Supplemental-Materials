@@ -1,3 +1,10 @@
+# SPDX-License-Identifier: LGPL-3.0-or-later
+# SPDX-FileNotice: Part of the Supplemental Materials addons.
+
+open_collective : freecad
+github : FreeCAD
+
 custom : [ 
+    'https://wiki.freecad.org/Donate' ,
     '⭐⠀𝚂𝚝𝚊𝚛⠀𝚝𝚑𝚎⠀𝚙𝚛𝚘𝚓𝚎𝚌𝚝'
 ]
