@@ -1,0 +1,52 @@
+---
+General:
+  UUID: "89e6bdca-7165-427e-8887-c3264fa243f1"
+  Author: "sliptonic"
+  License: "CC-BY-SA-4.0"
+  Name: "POM Homopolymer"
+  Description: >-
+    Polyoxymethylene homopolymer (acetal homopolymer, trade name Delrin).
+    Engineering thermoplastic used in precision parts requiring high stiffness,
+    low friction, and excellent dimensional stability.
+    Physical and mechanical properties (density, modulus, strength, thermal
+    conductivity, specific heat, expansion): Wikipedia article
+    "Polyoxymethylene" (CC-BY-SA-4.0), accessed 2026-02.
+    NOTE: FreeCAD core's POM-Homopolymer-Generic.FCMat has a specific heat
+    value of 3010 J/kg/K which is approximately double the correct value;
+    the Wikipedia value of 1500 J/kg/K is used here as it matches published
+    DuPont datasheets and is consistent with thermoplastic class norms.
+    Machinability values are conservative defaults based on widely-published
+    engineering consensus for acetal POM (one of the easiest plastics to
+    machine). FreeCAD core has no machining prototype for POM. Specific
+    machine/tool/setup may permit substantially higher surface speeds.
+  SourceURL: "https://en.wikipedia.org/wiki/Polyoxymethylene"
+  Tags:
+    - "Plastic"
+    - "Thermoplastic"
+    - "POM"
+    - "Acetal"
+    - "Delrin"
+    - "Homopolymer"
+Models:
+  Father:
+    UUID: '9cdda8b6-b606-4778-8f13-3934d8668e67'
+    Father: "Thermoplast"
+  LinearElastic:
+    UUID: '7b561d1d-fb9b-44f6-9da9-56a4f74d7536'
+    Density: "1410 kg/m^3"
+    PoissonRatio: "0.35"
+    UltimateStrain: "35"
+    UltimateTensileStrength: "67 MPa"
+    YieldStrength: "62 MPa"
+    YoungsModulus: "2700 MPa"
+  Thermal:
+    UUID: '9959d007-a970-4ea7-bae4-3eb1b8b883c7'
+    SpecificHeat: "1500 J/kg/K"
+    ThermalConductivity: "0.31 W/m/K"
+    ThermalExpansionCoefficient: "0.00012 m/m/K"
+  Machinability:
+    UUID: '9d81fcb2-bf81-48e3-bb57-d45ecf380096'
+    SurfaceSpeedHSS: '150 m/min'
+    SurfaceSpeedCarbide: '300 m/min'
+    UnitCuttingForce: '250 N/mm^2'
+    ChipThicknessExponent: 0.25
