@@ -1,0 +1,55 @@
+---
+General:
+  UUID: "3de5fa6a-94cc-4936-9f31-c9ceee976100"
+  Author: "sliptonic"
+  License: "CC-BY-SA-4.0"
+  Name: "Northern Red Oak"
+  Description: >-
+    Northern Red Oak (Quercus rubra), clear straight-grained wood at 12%
+    moisture content.
+    Mechanical properties (specific gravity, modulus of elasticity, modulus
+    of rupture, hardness, compression and shear strengths): USDA Forest
+    Products Laboratory, Wood Handbook FPL-GTR-190 (2010), Chapter 5,
+    Tables 5-1, 5-2, 5-3a. Public domain (US government publication).
+    Density computed from specific gravity 0.63 at 12% MC.
+    NOTE: Wood is highly anisotropic. The isotropic LinearElastic block
+    below uses the longitudinal (along-grain) modulus E_L = 12.5 GPa.
+    Transverse moduli are approximately 0.08 × E_L (tangential) and
+    0.15 × E_L (radial). For FEM work requiring directional response,
+    consult the FPL Wood Handbook elastic-ratio tables directly.
+    Machinability data derived from FreeCAD core 'HardWood.FCMat'
+    (Jonas Bähr, CC-BY-3.0, sourced from Zerspanung von Holz und
+    Holzwerkstoffen ISBN 978-3-446-47769-8). The prototype targets hardwoods
+    with density around 0.75 g/cm³ (beech, oak class); red oak at 0.63 SG
+    fits within scope. Direction-of-cut significantly affects cutting force;
+    values here are for the toughest direction (crosscut / Kivimaa A).
+  SourceURL: "https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr190/chapter_05.pdf"
+  Tags:
+    - "Wood"
+    - "Hardwood"
+    - "Oak"
+    - "Red Oak"
+    - "Quercus rubra"
+    - "Northern Red Oak"
+Inherits:
+  Wood:
+    UUID: "1850ac4a-0df2-43cd-9934-e59e95b9526f"
+Models:
+  Father:
+    UUID: '9cdda8b6-b606-4778-8f13-3934d8668e67'
+    Father: "Wood"
+  MaterialStandard:
+    UUID: '1e2c0088-904a-4537-925f-64064c07d700'
+    KindOfMaterial: "Wood"
+  LinearElastic:
+    UUID: '7b561d1d-fb9b-44f6-9da9-56a4f74d7536'
+    Density: "705 kg/m^3"
+    PoissonRatio: "0.35"
+    UltimateTensileStrength: "99 MPa"
+    YoungsModulus: "12.5 GPa"
+  Machinability:
+    UUID: '9d81fcb2-bf81-48e3-bb57-d45ecf380096'
+    SurfaceSpeedHSS: '600 m/min'
+    SurfaceSpeedCarbide: '600 m/min'
+    UnitCuttingForce: '52.5 N/mm^2'
+    ChipThicknessExponent: 0.50

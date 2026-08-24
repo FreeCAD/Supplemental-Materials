@@ -20,6 +20,12 @@ General:
     with permission and credit to the 'Copper Development Association' (CDA).
     For your own production accuracy, please use values provided by the
     material vendors you are working with.
+    Machinability data added 2026-05: cutting speeds derived from
+    CDA machinability rating of 20% (relative to C36000 free-cutting
+    brass = 100%) applied to a baseline of HSS 120 m/min, Carbide 250
+    m/min. Unit cutting force (k_c1.1) and chip-thickness exponent (m_c)
+    use widely-published Kienzle reference values for the pure copper class.
+    Specific lot conditions can shift these values significantly.
 Inherits:
   Copper:
     UUID: "524cad9b-b841-4037-9851-badeca7dcee2"
@@ -84,3 +90,9 @@ Models:
          ["76 K",  "152 J", "430 MPa"],
          ["20 K",  "160 J", "496 MPa"],
          ["4 K",   "",      "515 MPa"]]
+  Machinability:
+    UUID: '9d81fcb2-bf81-48e3-bb57-d45ecf380096'
+    SurfaceSpeedHSS: '24 m/min'
+    SurfaceSpeedCarbide: '50 m/min'
+    UnitCuttingForce: '1500 N/mm^2'
+    ChipThicknessExponent: 0.18

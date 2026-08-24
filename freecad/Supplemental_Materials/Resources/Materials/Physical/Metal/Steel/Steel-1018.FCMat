@@ -1,0 +1,62 @@
+---
+General:
+  UUID: "9b1dc318-94e8-4076-a3be-b3c6c4553ab8"
+  Author: "sliptonic"
+  License: "CC-BY-SA-4.0"
+  Name: "Steel 1018"
+  Description: >-
+    AISI 1018 low-carbon (mild) steel, cold-drawn condition. One of the most
+    common general-purpose carbon steels for machining.
+    Density and Young's modulus: Wikipedia article "Carbon steel" (CC-BY-SA-4.0),
+    accessed 2026-05.
+    Yield/ultimate strengths: typical published values for 1018 cold-drawn
+    at room temperature.
+    Thermal properties (k, c_p, α): typical values for low-carbon steel
+    (widely-published engineering data).
+    Machinability data derived from FreeCAD core 'MildSteel.FCMat' (Jonas Bähr,
+    CC-BY-3.0, sourced from Tabellenbuch Zerspantechnik ISBN 978-3-7585-1315-2).
+    Original Jonas Bähr k_c1.1 base value (1800 N/mm^2) reads slightly low
+    for 0.18% C steel (Kienzle reference for C20 is ~1990 N/mm^2); the
+    Jonas-corrected milling value of 2298 N/mm^2 is retained as a reasonable
+    central estimate. Hot-rolled 1018 has lower yield (~220-310 MPa) than the
+    cold-drawn values shown here.
+  SourceURL: "https://en.wikipedia.org/wiki/Carbon_steel"
+  Tags:
+    - "Steel"
+    - "1018"
+    - "Mild Steel"
+    - "Low Carbon"
+    - "Cold Drawn"
+    - "UNS G10180"
+    - "AISI 1018"
+Inherits:
+  Steel:
+    UUID: "4b849c55-6b3a-4f75-a055-40c0d0324596"
+Models:
+  Father:
+    UUID: '9cdda8b6-b606-4778-8f13-3934d8668e67'
+    Father: "Metal"
+  MaterialStandard:
+    UUID: '1e2c0088-904a-4537-925f-64064c07d700'
+    KindOfMaterial: "Steel"
+    MaterialNumber: "G10180"
+    StandardCode: "UNS"
+  LinearElastic:
+    UUID: '7b561d1d-fb9b-44f6-9da9-56a4f74d7536'
+    Density: "7870 kg/m^3"
+    PoissonRatio: "0.29"
+    ShearModulus: "77.5 GPa"
+    UltimateTensileStrength: "440 MPa"
+    YieldStrength: "370 MPa"
+    YoungsModulus: "200 GPa"
+  Thermal:
+    UUID: '9959d007-a970-4ea7-bae4-3eb1b8b883c7'
+    SpecificHeat: "486 J/kg/K"
+    ThermalConductivity: "51.9 W/m/K"
+    ThermalExpansionCoefficient: "0.0000117 m/m/K"
+  Machinability:
+    UUID: '9d81fcb2-bf81-48e3-bb57-d45ecf380096'
+    SurfaceSpeedHSS: '25 m/min'
+    SurfaceSpeedCarbide: '70 m/min'
+    UnitCuttingForce: '2298 N/mm^2'
+    ChipThicknessExponent: 0.20
